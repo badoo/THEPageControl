@@ -1,0 +1,16 @@
+PODS:
+  - THEPageControl (1.0.0)
+
+DEPENDENCIES:
+  - THEPageControl (from `..`)
+
+EXTERNAL SOURCES:
+  THEPageControl:
+    :path: ..
+
+SPEC CHECKSUMS:
+  THEPageControl: ea625b69c5de29e9a245bdacbef7adebd1fb1a1b
+
+PODFILE CHECKSUM: 34ad8db1298bbbffa013c98cbd189cc583f3ba63
+
+COCOAPODS: 1.2.0
