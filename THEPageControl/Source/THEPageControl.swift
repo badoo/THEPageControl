@@ -59,16 +59,16 @@ public class PageControl: UIView {
     }
 
     /// [0..self.dots.count-1] interval, non-integer values will interpolate between sibling dots. Default is 0
-    public var activeDotIndex: Float = 0 {
+    @objc public var activeDotIndex: Float = 0 {
         didSet {
             self.activeDotIndex = self.activeDotIndex.clamped(0, Float(self.dots.count - 1))
             self.updateDotViews()
         }
     }
 
-    public var onActiveDotIndexChanged: ((Float) -> Void)? = nil
+    @objc public var onActiveDotIndexChanged: ((Float) -> Void)? = nil
 
-    public func setActiveDotIndex(_ index: Float, animated: Bool) {
+    @objc public func setActiveDotIndex(_ index: Float, animated: Bool) {
         if !animated {
             self.activeDotIndex = index
             return
@@ -289,7 +289,7 @@ public class PageControl: UIView {
 
 private class Animator: NSObject {
 
-    @discardableResult
+    @objc @discardableResult
     static func animate(duration: TimeInterval, work: @escaping (Float) -> Void) -> Animator {
         let animator = Animator(duration: duration, work: work)
         animator.run()
@@ -302,7 +302,7 @@ private class Animator: NSObject {
     private var selfHolder: Animator? = nil
     private var displayLink: CADisplayLink? = nil
 
-    func cancel() {
+    @objc func cancel() {
         self.displayLink?.invalidate()
         self.selfHolder = nil
     }
@@ -352,16 +352,16 @@ private extension PageControl {
             self.commonInit()
         }
 
-        func applyRegularStyle() {
+        @objc func applyRegularStyle() {
             self.applyStyle(style: self.dot.regularStyle)
         }
 
-        func applyActiveStyle() {
+        @objc func applyActiveStyle() {
             self.applyStyle(style: self.dot.activeStyle)
         }
 
         /// [0..1] means [regular..active]
-        func applyIntermediateStyle(lerpValue: Float) {
+        @objc func applyIntermediateStyle(lerpValue: Float) {
             let blendedStyle = lerpValue.clamped(0, 1).lerp(self.dot.regularStyle, self.dot.activeStyle)
             self.applyStyle(style: blendedStyle)
         }
