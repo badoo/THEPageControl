@@ -114,8 +114,8 @@ struct DotPresets {
 
 class ViewController: UIViewController {
 
-    var pageControls = [PageControl]()
-    var slider: UISlider?
+    @objc var pageControls = [PageControl]()
+    @objc var slider: UISlider?
 
     override func viewDidLoad() {
         super.viewDidLoad()
