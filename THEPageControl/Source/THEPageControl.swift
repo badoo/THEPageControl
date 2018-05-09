@@ -27,15 +27,24 @@ public class PageControl: UIView {
 
     public struct Dot {
         public struct Style {
+
+            public enum Shape {
+                case circle
+                case square
+            }
+
+            public var shape: Shape
             public var radius: Float
             public var fillColor: UIColor
             public var strokeColor: UIColor
             public var strokeWidth: Float
 
-            public init(radius: Float,
+            public init(shape: Shape,
+                        radius: Float,
                         fillColor: UIColor,
                         strokeColor: UIColor,
                         strokeWidth: Float) {
+                self.shape = shape
                 self.radius = radius
                 self.fillColor = fillColor
                 self.strokeColor = strokeColor
@@ -376,7 +385,12 @@ private extension PageControl {
         private func applyStyle(style: Dot.Style) {
             self.frame.size = CGSize(width: CGFloat(style.radius * 2), height: CGFloat(style.radius * 2))
             self.backgroundColor = style.fillColor
-            self.layer.cornerRadius = CGFloat(style.radius)
+            switch style.shape {
+            case .circle:
+                self.layer.cornerRadius = CGFloat(style.radius)
+            case .square:
+                self.layer.cornerRadius = 0
+            }
             self.layer.borderWidth = CGFloat(style.strokeWidth)
             self.layer.borderColor = style.strokeColor.cgColor
         }
@@ -422,6 +436,7 @@ private extension Float {
 
     func lerp(_ from: PageControl.Dot.Style, _ to: PageControl.Dot.Style) -> PageControl.Dot.Style {
         return PageControl.Dot.Style(
+            shape: to.shape,
             radius: self.lerp(from.radius, to.radius),
             fillColor: self.lerp(from.fillColor, to.fillColor),
             strokeColor: self.lerp(from.strokeColor, to.strokeColor),
@@ -447,6 +462,7 @@ extension PageControl.Dot {
 
     public static var `default`: PageControl.Dot {
         let regularStyle = PageControl.Dot.Style(
+            shape: .circle,
             radius: 10,
             fillColor: .clear,
             strokeColor: .black,
@@ -454,6 +470,7 @@ extension PageControl.Dot {
         )
 
         let activeStyle = PageControl.Dot.Style(
+            shape: .circle,
             radius: 10,
             fillColor: .black,
             strokeColor: .clear,
