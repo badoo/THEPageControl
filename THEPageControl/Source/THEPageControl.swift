@@ -33,22 +33,22 @@ public class PageControl: UIView {
                 case square
             }
 
-            public var shape: Shape
             public var radius: Float
             public var fillColor: UIColor
             public var strokeColor: UIColor
             public var strokeWidth: Float
+            public var shape: Shape
 
-            public init(shape: Shape,
-                        radius: Float,
+            public init(radius: Float,
                         fillColor: UIColor,
                         strokeColor: UIColor,
-                        strokeWidth: Float) {
-                self.shape = shape
+                        strokeWidth: Float,
+                        shape: Shape = .circle) {
                 self.radius = radius
                 self.fillColor = fillColor
                 self.strokeColor = strokeColor
                 self.strokeWidth = strokeWidth
+                self.shape = shape
             }
         }
 
@@ -436,11 +436,11 @@ private extension Float {
 
     func lerp(_ from: PageControl.Dot.Style, _ to: PageControl.Dot.Style) -> PageControl.Dot.Style {
         return PageControl.Dot.Style(
-            shape: to.shape,
             radius: self.lerp(from.radius, to.radius),
             fillColor: self.lerp(from.fillColor, to.fillColor),
             strokeColor: self.lerp(from.strokeColor, to.strokeColor),
-            strokeWidth: self.lerp(from.strokeWidth, to.strokeWidth)
+            strokeWidth: self.lerp(from.strokeWidth, to.strokeWidth),
+            shape: to.shape
         )
     }
 }
@@ -462,7 +462,6 @@ extension PageControl.Dot {
 
     public static var `default`: PageControl.Dot {
         let regularStyle = PageControl.Dot.Style(
-            shape: .circle,
             radius: 10,
             fillColor: .clear,
             strokeColor: .black,
@@ -470,7 +469,6 @@ extension PageControl.Dot {
         )
 
         let activeStyle = PageControl.Dot.Style(
-            shape: .circle,
             radius: 10,
             fillColor: .black,
             strokeColor: .clear,
