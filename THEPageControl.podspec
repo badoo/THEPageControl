@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "THEPageControl"
-  s.version      = "1.1.0"
+  s.version      = "1.2.0"
   s.summary      = "Simple and flexible page control"
   s.description  = <<-DESC
                    Simple to use page control written in Swift. Provides full customization per dot.

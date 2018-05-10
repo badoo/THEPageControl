@@ -27,19 +27,28 @@ public class PageControl: UIView {
 
     public struct Dot {
         public struct Style {
+
+            public enum Shape {
+                case circle
+                case square
+            }
+
             public var radius: Float
             public var fillColor: UIColor
             public var strokeColor: UIColor
             public var strokeWidth: Float
+            public var shape: Shape
 
             public init(radius: Float,
                         fillColor: UIColor,
                         strokeColor: UIColor,
-                        strokeWidth: Float) {
+                        strokeWidth: Float,
+                        shape: Shape = .circle) {
                 self.radius = radius
                 self.fillColor = fillColor
                 self.strokeColor = strokeColor
                 self.strokeWidth = strokeWidth
+                self.shape = shape
             }
         }
 
@@ -376,7 +385,12 @@ private extension PageControl {
         private func applyStyle(style: Dot.Style) {
             self.frame.size = CGSize(width: CGFloat(style.radius * 2), height: CGFloat(style.radius * 2))
             self.backgroundColor = style.fillColor
-            self.layer.cornerRadius = CGFloat(style.radius)
+            switch style.shape {
+            case .circle:
+                self.layer.cornerRadius = CGFloat(style.radius)
+            case .square:
+                self.layer.cornerRadius = 0
+            }
             self.layer.borderWidth = CGFloat(style.strokeWidth)
             self.layer.borderColor = style.strokeColor.cgColor
         }
@@ -425,7 +439,8 @@ private extension Float {
             radius: self.lerp(from.radius, to.radius),
             fillColor: self.lerp(from.fillColor, to.fillColor),
             strokeColor: self.lerp(from.strokeColor, to.strokeColor),
-            strokeWidth: self.lerp(from.strokeWidth, to.strokeWidth)
+            strokeWidth: self.lerp(from.strokeWidth, to.strokeWidth),
+            shape: to.shape
         )
     }
 }
