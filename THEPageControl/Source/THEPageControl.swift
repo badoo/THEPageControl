@@ -325,7 +325,7 @@ private class Animator: NSObject {
 
     private func run() {
         self.displayLink = CADisplayLink(target: self, selector: #selector(self.onFire))
-        self.displayLink?.add(to: RunLoop.main, forMode: .commonModes)
+        self.displayLink?.add(to: RunLoop.main, forMode: RunLoop.Mode.common)
         self.work(0)
     }
 
