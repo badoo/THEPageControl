@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.screenshots  = "https://raw.githubusercontent.com/badoo/THEPageControl/master/readme_images/example.gif"
   s.license      = { :type => "MIT" }
   s.authors      = { "Igor Kashkuta" => "ikashkuta@gmail.com" }
-  s.platform     = :ios, "8.0"
+  s.platform     = :ios, "12.0"
   s.source       = { :path => "./" }
   s.source       = { :git => "https://github.com/badoo/THEPageControl.git", :tag => "#{s.version}" }
   s.source_files = "THEPageControl/Source/**/*.{h,m,swift}"
