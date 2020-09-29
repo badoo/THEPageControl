@@ -42,12 +42,12 @@ class PageControlTests: XCTestCase {
         XCTAssertEqual(self.pageControl.activeDotIndex, 0)
 
         self.pageControl.activeDotIndex = 100
-        XCTAssertEqual(self.pageControl.activeDotIndex, CGFloat(self.pageControl.dots.count - 1))
+        XCTAssertEqual(self.pageControl.activeDotIndex, Float(self.pageControl.dots.count - 1))
     }
 
     func test_PageControl_SetIndexCorrectly() {
         self.pageControl.dots = Array(repeating: .default, count: 5)
-        let index: CGFloat = 3
+        let index: Float = 3
         self.pageControl.setActiveDotIndex(index, animated: false)
         XCTAssertEqual(self.pageControl.activeDotIndex, index)
     }
@@ -59,12 +59,12 @@ class PageControlTests: XCTestCase {
 
         var expectedWidth: CGFloat = configuration.paddings.left
         expectedWidth += configuration.spacing * CGFloat(dots.count - 1)
-        expectedWidth += dot.regularStyle.radius * 2 * CGFloat(dots.count - 1)
-        expectedWidth += dot.activeStyle.radius * 2
+        expectedWidth += CGFloat(dot.regularStyle.radius) * 2 * CGFloat(dots.count - 1)
+        expectedWidth += CGFloat(dot.activeStyle.radius) * 2
         expectedWidth += configuration.paddings.right
 
         var expectedHeight: CGFloat = configuration.paddings.top
-        expectedHeight += dot.activeStyle.radius * 2
+        expectedHeight += CGFloat(dot.activeStyle.radius) * 2
         expectedHeight += configuration.paddings.bottom
 
         self.pageControl.dots = dots
@@ -83,12 +83,12 @@ class PageControlTests: XCTestCase {
 
         var expectedHeight: CGFloat = configuration.paddings.top
         expectedHeight += configuration.spacing * CGFloat(dots.count - 1)
-        expectedHeight += dot.regularStyle.radius * 2 * CGFloat(dots.count - 1)
-        expectedHeight += dot.activeStyle.radius * 2
+        expectedHeight += CGFloat(dot.regularStyle.radius) * 2 * CGFloat(dots.count - 1)
+        expectedHeight += CGFloat(dot.activeStyle.radius) * 2
         expectedHeight += configuration.paddings.bottom
 
         var expectedWidth: CGFloat = configuration.paddings.left
-        expectedWidth += dot.activeStyle.radius * 2
+        expectedWidth += CGFloat(dot.activeStyle.radius) * 2
         expectedWidth += configuration.paddings.right
 
         self.pageControl.dots = dots
