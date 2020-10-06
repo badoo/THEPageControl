@@ -100,7 +100,6 @@
 				A0DFADA11E64909E00CB7ECB /* Frameworks */,
 				A0DFADA21E64909E00CB7ECB /* Resources */,
 				DFDE91D55E6ECE2FEF6C5B91 /* [CP] Embed Pods Frameworks */,
-				29DC35343290ABCC4D5B0859 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -161,21 +160,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		29DC35343290ABCC4D5B0859 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-THEPageControlApp/Pods-THEPageControlApp-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		9828ABFDD132D11F76E758C1 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -200,7 +184,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-THEPageControlApp/Pods-THEPageControlApp-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-THEPageControlApp/Pods-THEPageControlApp-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/THEPageControl/THEPageControl.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -209,7 +193,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-THEPageControlApp/Pods-THEPageControlApp-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-THEPageControlApp/Pods-THEPageControlApp-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

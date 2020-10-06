@@ -1,16 +1,16 @@
 PODS:
-  - THEPageControl (1.0.0)
+  - THEPageControl (1.2.0)
 
 DEPENDENCIES:
   - THEPageControl (from `..`)
 
 EXTERNAL SOURCES:
   THEPageControl:
-    :path: ..
+    :path: ".."
 
 SPEC CHECKSUMS:
-  THEPageControl: 758270ed8660186286e54d31952b7b51843c2c7d
+  THEPageControl: ebadbffb35e41eea007cd4005c2f040780c51521
 
 PODFILE CHECKSUM: 34ad8db1298bbbffa013c98cbd189cc583f3ba63
 
-COCOAPODS: 1.3.1
+COCOAPODS: 1.9.0
