@@ -7,214 +7,211 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		06DA7DC63EBE57D832F0E945CFFC47F7 /* THEPageControl-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C962B514EC401AFF23B68C4BD1C4D987 /* THEPageControl-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0DD2D50028FFFABDD0E1C3C60E52682C /* THEPageControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 02FA58F488F4EA1AF9A35BDACC92FF32 /* THEPageControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		140813E5599042F436C2315164BB3A61 /* THEPageControl-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BA1210E9C597B7C40F28BEB8B5E850BC /* THEPageControl-dummy.m */; };
-		C28BD3450C513DD175C22A83B3C8A857 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		C7CF8E7A19D09D1CCB28DAE6FBB29881 /* Pods-THEPageControlApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C38F9FDB879C48F2C847E280B026E66D /* Pods-THEPageControlApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D3D932B2A45C786C6F5BDAE7DE619BE1 /* Pods-THEPageControlApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3413D956B83A5C718B8B000FFEABDB37 /* Pods-THEPageControlApp-dummy.m */; };
-		F4F392E77E6FB6F8C2DF8FD84BDE9A0C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		F4FE2F4D56FC6E9D084A54A52CF36553 /* THEPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73BF782A0300176489F0BB72D78077F /* THEPageControl.swift */; };
+		8570DD0A77C6C734BBB0CE0EABDEE017 /* Pods-THEPageControlApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EF2ACE4CC45C3425DA14BF0BF6FDCB9 /* Pods-THEPageControlApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8EF8E44129835F53AC67F11239289DB3 /* THEPageControl-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C400F5FCD41E486F3A4C3B13D584C0A6 /* THEPageControl-dummy.m */; };
+		9F4C1FA3FA2E8B44399B13D9A5102DA5 /* THEPageControl-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2535CA40EC412816E1C21BE6508A6932 /* THEPageControl-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0FFCFD2F4D3945471CA293FE0A01E19 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		AE635479F7E8ACB62F1B45CA0C2B1B95 /* THEPageControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 05CAD5E19C4FC0D28B135D19D434353C /* THEPageControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E184900CE836A32974218BEE226E3AA7 /* THEPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6713D59403E50593F7AD4044C234D961 /* THEPageControl.swift */; };
+		ECD82B346157C0B949332F07B5362446 /* Pods-THEPageControlApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C57A4B4D14E8E6EF8FBF91C301AC3F /* Pods-THEPageControlApp-dummy.m */; };
+		F94370343BBC7A26F8726269140CE21F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1DBF2BC69B3A8BEF4480F084511793DA /* PBXContainerItemProxy */ = {
+		2E54DAF0992F260718EF4A4E1120E05C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 766EFA1C8B993EA30D0DD7B0298AC63C;
+			remoteGlobalIDString = 86F8C4B2FA7AF93968293C8714C632BD;
 			remoteInfo = THEPageControl;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		02FA58F488F4EA1AF9A35BDACC92FF32 /* THEPageControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = THEPageControl.h; path = THEPageControl/Source/THEPageControl.h; sourceTree = "<group>"; };
-		3413D956B83A5C718B8B000FFEABDB37 /* Pods-THEPageControlApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-THEPageControlApp-dummy.m"; sourceTree = "<group>"; };
-		3BD0A4AFD44792D788F29607B914B07D /* Pods-THEPageControlApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-THEPageControlApp-frameworks.sh"; sourceTree = "<group>"; };
-		3E84C60626CDA3322AAF2C6AC73D86C9 /* Pods_THEPageControlApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_THEPageControlApp.framework; path = "Pods-THEPageControlApp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		416E86C2D916FF9323FF6129DB8BB11B /* THEPageControl.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = THEPageControl.modulemap; sourceTree = "<group>"; };
-		47C469837092C66A11E74646F400398A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		599558E932742B0A3CD694AD491E09B5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		63D064AB7A42E4DC7718E0C6AE5FF932 /* Pods-THEPageControlApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-THEPageControlApp.modulemap"; sourceTree = "<group>"; };
-		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7AF01DF0B6511599E6172790AAD40897 /* Pods-THEPageControlApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-THEPageControlApp.debug.xcconfig"; sourceTree = "<group>"; };
-		826C08A85F2B478DE6B294DDD90FB112 /* Pods-THEPageControlApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-THEPageControlApp.release.xcconfig"; sourceTree = "<group>"; };
-		91D29EBC62D688DF0A4EEA7EB8EEF366 /* THEPageControl-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "THEPageControl-prefix.pch"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A0A4864F345945AA585D42681913EB4D /* Pods-THEPageControlApp-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-THEPageControlApp-resources.sh"; sourceTree = "<group>"; };
-		A73BF782A0300176489F0BB72D78077F /* THEPageControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = THEPageControl.swift; path = THEPageControl/Source/THEPageControl.swift; sourceTree = "<group>"; };
-		BA1210E9C597B7C40F28BEB8B5E850BC /* THEPageControl-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "THEPageControl-dummy.m"; sourceTree = "<group>"; };
-		BD6C8B550282594AE18DE3D6C6D0BD71 /* Pods-THEPageControlApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-THEPageControlApp-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C38F9FDB879C48F2C847E280B026E66D /* Pods-THEPageControlApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-THEPageControlApp-umbrella.h"; sourceTree = "<group>"; };
-		C962B514EC401AFF23B68C4BD1C4D987 /* THEPageControl-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "THEPageControl-umbrella.h"; sourceTree = "<group>"; };
-		CF8AB90DC02E404F3CF6174E476839CD /* THEPageControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = THEPageControl.framework; path = THEPageControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DA53D0612CB8A6B2954C5AB757D57F4B /* Pods-THEPageControlApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-THEPageControlApp-acknowledgements.plist"; sourceTree = "<group>"; };
-		E3808CAFC6E758D4D1A9924FF5221215 /* THEPageControl.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = THEPageControl.xcconfig; sourceTree = "<group>"; };
+		05CAD5E19C4FC0D28B135D19D434353C /* THEPageControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = THEPageControl.h; path = THEPageControl/Source/THEPageControl.h; sourceTree = "<group>"; };
+		1561902458271B0A06B3F05ABD41EE18 /* THEPageControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = THEPageControl.framework; path = THEPageControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DB026910F761C07A6CB990BB24348BE /* Pods-THEPageControlApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-THEPageControlApp-frameworks.sh"; sourceTree = "<group>"; };
+		2535CA40EC412816E1C21BE6508A6932 /* THEPageControl-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "THEPageControl-umbrella.h"; sourceTree = "<group>"; };
+		2F3BC7945F012519DC2C0AF6264CB1FE /* Pods-THEPageControlApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-THEPageControlApp.modulemap"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		427C9E91A2634E64C16557B0FFF78056 /* Pods-THEPageControlApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-THEPageControlApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		48F00F905B4441016DD5FAD3E901C436 /* THEPageControl.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = THEPageControl.debug.xcconfig; sourceTree = "<group>"; };
+		49C40DF5CB5334A2F1E8C2C48C93E3BC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		5F1AB0E2AD308C21481668A23901CEDF /* THEPageControl.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = THEPageControl.modulemap; sourceTree = "<group>"; };
+		619D6DE0819D5F901EB7C5BA344B832E /* THEPageControl.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = THEPageControl.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6713D59403E50593F7AD4044C234D961 /* THEPageControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = THEPageControl.swift; path = THEPageControl/Source/THEPageControl.swift; sourceTree = "<group>"; };
+		69C57A4B4D14E8E6EF8FBF91C301AC3F /* Pods-THEPageControlApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-THEPageControlApp-dummy.m"; sourceTree = "<group>"; };
+		796F74DE9A9E6BADD0A9E204A3F1F197 /* THEPageControl-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "THEPageControl-prefix.pch"; sourceTree = "<group>"; };
+		82C923B6FDD91499A0D95F0D81368E6E /* THEPageControl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = THEPageControl.release.xcconfig; sourceTree = "<group>"; };
+		878D36437F2D1CF658AB9A3F37F1BF41 /* Pods-THEPageControlApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-THEPageControlApp-Info.plist"; sourceTree = "<group>"; };
+		8EF2ACE4CC45C3425DA14BF0BF6FDCB9 /* Pods-THEPageControlApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-THEPageControlApp-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A13ACB43F5CE955A1D9A6C085F4F0F55 /* Pods-THEPageControlApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-THEPageControlApp.debug.xcconfig"; sourceTree = "<group>"; };
+		ACD52383F70DFD9F9940CB4CB9491552 /* Pods-THEPageControlApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-THEPageControlApp.release.xcconfig"; sourceTree = "<group>"; };
+		B3FD70D1DB44EB449A2F90C6085E7567 /* Pods-THEPageControlApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-THEPageControlApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C400F5FCD41E486F3A4C3B13D584C0A6 /* THEPageControl-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "THEPageControl-dummy.m"; sourceTree = "<group>"; };
+		CEAFCA85EFAA924B1B9148D3669C6A61 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		D715E079DF260C9C8E28DAB601EF16D3 /* THEPageControl-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "THEPageControl-Info.plist"; sourceTree = "<group>"; };
+		F49C7A6E50189E1776142D64B68E2669 /* Pods_THEPageControlApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_THEPageControlApp.framework; path = "Pods-THEPageControlApp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A60F138FB04074B3B9F06661B2159388 /* Frameworks */ = {
+		A393DEA602C415AA5C2893FE3E98A6D7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4F392E77E6FB6F8C2DF8FD84BDE9A0C /* Foundation.framework in Frameworks */,
+				F94370343BBC7A26F8726269140CE21F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DA005A95EE49B7482444B9693F12D3D5 /* Frameworks */ = {
+		E805D82252EB4DCBF650BBC007BA2BD0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C28BD3450C513DD175C22A83B3C8A857 /* Foundation.framework in Frameworks */,
+				A0FFCFD2F4D3945471CA293FE0A01E19 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1E900F034F7E99C8645F96A6C82F338E /* Targets Support Files */ = {
+		2AC0ABC16D6A8ADDF230AD78C18A37E4 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				480E8C80F3C73FB9E454A68709CE168A /* Pods-THEPageControlApp */,
+				D89E5AB5F8BE99EDB32A5C479303A57E /* Pods-THEPageControlApp */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		480E8C80F3C73FB9E454A68709CE168A /* Pods-THEPageControlApp */ = {
+		3AC325681B0826C4A351895D34D1254F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				599558E932742B0A3CD694AD491E09B5 /* Info.plist */,
-				63D064AB7A42E4DC7718E0C6AE5FF932 /* Pods-THEPageControlApp.modulemap */,
-				BD6C8B550282594AE18DE3D6C6D0BD71 /* Pods-THEPageControlApp-acknowledgements.markdown */,
-				DA53D0612CB8A6B2954C5AB757D57F4B /* Pods-THEPageControlApp-acknowledgements.plist */,
-				3413D956B83A5C718B8B000FFEABDB37 /* Pods-THEPageControlApp-dummy.m */,
-				3BD0A4AFD44792D788F29607B914B07D /* Pods-THEPageControlApp-frameworks.sh */,
-				A0A4864F345945AA585D42681913EB4D /* Pods-THEPageControlApp-resources.sh */,
-				C38F9FDB879C48F2C847E280B026E66D /* Pods-THEPageControlApp-umbrella.h */,
-				7AF01DF0B6511599E6172790AAD40897 /* Pods-THEPageControlApp.debug.xcconfig */,
-				826C08A85F2B478DE6B294DDD90FB112 /* Pods-THEPageControlApp.release.xcconfig */,
+				F49C7A6E50189E1776142D64B68E2669 /* Pods_THEPageControlApp.framework */,
+				1561902458271B0A06B3F05ABD41EE18 /* THEPageControl.framework */,
 			);
-			name = "Pods-THEPageControlApp";
-			path = "Target Support Files/Pods-THEPageControlApp";
+			name = Products;
 			sourceTree = "<group>";
 		};
-		4B2F580B2EA2CDC106F32E63C4350654 /* Support Files */ = {
+		7CBE9DB81CDCF7050A0E906E73AFD9DB /* THEPageControl */ = {
 			isa = PBXGroup;
 			children = (
-				47C469837092C66A11E74646F400398A /* Info.plist */,
-				416E86C2D916FF9323FF6129DB8BB11B /* THEPageControl.modulemap */,
-				E3808CAFC6E758D4D1A9924FF5221215 /* THEPageControl.xcconfig */,
-				BA1210E9C597B7C40F28BEB8B5E850BC /* THEPageControl-dummy.m */,
-				91D29EBC62D688DF0A4EEA7EB8EEF366 /* THEPageControl-prefix.pch */,
-				C962B514EC401AFF23B68C4BD1C4D987 /* THEPageControl-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "THEPageControlApp/Pods/Target Support Files/THEPageControl";
-			sourceTree = "<group>";
-		};
-		6DCA2F45D2D5E86F12812928888BBAA7 /* THEPageControl */ = {
-			isa = PBXGroup;
-			children = (
-				02FA58F488F4EA1AF9A35BDACC92FF32 /* THEPageControl.h */,
-				A73BF782A0300176489F0BB72D78077F /* THEPageControl.swift */,
-				4B2F580B2EA2CDC106F32E63C4350654 /* Support Files */,
+				05CAD5E19C4FC0D28B135D19D434353C /* THEPageControl.h */,
+				6713D59403E50593F7AD4044C234D961 /* THEPageControl.swift */,
+				FC2D5FA4A39BE608FE5CF31300B8FD7B /* Pod */,
+				FC1F1A7C34AF0E6856A0730B428E9625 /* Support Files */,
 			);
 			name = THEPageControl;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		7CFCC098366FA9B97FD9C7ACB40C25D3 /* Development Pods */ = {
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				6DCA2F45D2D5E86F12812928888BBAA7 /* THEPageControl */,
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
 			);
-			name = "Development Pods";
+			name = iOS;
 			sourceTree = "<group>";
 		};
-		7DB346D0F39D3F0E887471402A8071AB = {
+		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
-				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				7CFCC098366FA9B97FD9C7ACB40C25D3 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				C648FC796450E84DC705B5243B1AED8A /* Products */,
-				1E900F034F7E99C8645F96A6C82F338E /* Targets Support Files */,
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				DEE41862C0890CB4BDDE26BB24B76035 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				3AC325681B0826C4A351895D34D1254F /* Products */,
+				2AC0ABC16D6A8ADDF230AD78C18A37E4 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C648FC796450E84DC705B5243B1AED8A /* Products */ = {
+		D89E5AB5F8BE99EDB32A5C479303A57E /* Pods-THEPageControlApp */ = {
 			isa = PBXGroup;
 			children = (
-				3E84C60626CDA3322AAF2C6AC73D86C9 /* Pods_THEPageControlApp.framework */,
-				CF8AB90DC02E404F3CF6174E476839CD /* THEPageControl.framework */,
+				2F3BC7945F012519DC2C0AF6264CB1FE /* Pods-THEPageControlApp.modulemap */,
+				B3FD70D1DB44EB449A2F90C6085E7567 /* Pods-THEPageControlApp-acknowledgements.markdown */,
+				427C9E91A2634E64C16557B0FFF78056 /* Pods-THEPageControlApp-acknowledgements.plist */,
+				69C57A4B4D14E8E6EF8FBF91C301AC3F /* Pods-THEPageControlApp-dummy.m */,
+				1DB026910F761C07A6CB990BB24348BE /* Pods-THEPageControlApp-frameworks.sh */,
+				878D36437F2D1CF658AB9A3F37F1BF41 /* Pods-THEPageControlApp-Info.plist */,
+				8EF2ACE4CC45C3425DA14BF0BF6FDCB9 /* Pods-THEPageControlApp-umbrella.h */,
+				A13ACB43F5CE955A1D9A6C085F4F0F55 /* Pods-THEPageControlApp.debug.xcconfig */,
+				ACD52383F70DFD9F9940CB4CB9491552 /* Pods-THEPageControlApp.release.xcconfig */,
 			);
-			name = Products;
+			name = "Pods-THEPageControlApp";
+			path = "Target Support Files/Pods-THEPageControlApp";
 			sourceTree = "<group>";
 		};
-		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+		DEE41862C0890CB4BDDE26BB24B76035 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+				7CBE9DB81CDCF7050A0E906E73AFD9DB /* THEPageControl */,
 			);
-			name = iOS;
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		FC1F1A7C34AF0E6856A0730B428E9625 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5F1AB0E2AD308C21481668A23901CEDF /* THEPageControl.modulemap */,
+				C400F5FCD41E486F3A4C3B13D584C0A6 /* THEPageControl-dummy.m */,
+				D715E079DF260C9C8E28DAB601EF16D3 /* THEPageControl-Info.plist */,
+				796F74DE9A9E6BADD0A9E204A3F1F197 /* THEPageControl-prefix.pch */,
+				2535CA40EC412816E1C21BE6508A6932 /* THEPageControl-umbrella.h */,
+				48F00F905B4441016DD5FAD3E901C436 /* THEPageControl.debug.xcconfig */,
+				82C923B6FDD91499A0D95F0D81368E6E /* THEPageControl.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "THEPageControlApp/Pods/Target Support Files/THEPageControl";
+			sourceTree = "<group>";
+		};
+		FC2D5FA4A39BE608FE5CF31300B8FD7B /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				CEAFCA85EFAA924B1B9148D3669C6A61 /* LICENSE */,
+				49C40DF5CB5334A2F1E8C2C48C93E3BC /* README.md */,
+				619D6DE0819D5F901EB7C5BA344B832E /* THEPageControl.podspec */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		49306AC8B5C6BE3801ACF9FD601867C1 /* Headers */ = {
+		43B80E810BEF2B7CEE3C9B2BEB5E4CE4 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				06DA7DC63EBE57D832F0E945CFFC47F7 /* THEPageControl-umbrella.h in Headers */,
-				0DD2D50028FFFABDD0E1C3C60E52682C /* THEPageControl.h in Headers */,
+				8570DD0A77C6C734BBB0CE0EABDEE017 /* Pods-THEPageControlApp-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9F06E0C9DFA35BD39689FE71FDFE2C1D /* Headers */ = {
+		71CAC668831AC8541CA44A70887ACE67 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C7CF8E7A19D09D1CCB28DAE6FBB29881 /* Pods-THEPageControlApp-umbrella.h in Headers */,
+				9F4C1FA3FA2E8B44399B13D9A5102DA5 /* THEPageControl-umbrella.h in Headers */,
+				AE635479F7E8ACB62F1B45CA0C2B1B95 /* THEPageControl.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		475A368A31C0BD763A8B6E723E69A4F9 /* Pods-THEPageControlApp */ = {
+		86F8C4B2FA7AF93968293C8714C632BD /* THEPageControl */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5AF74AE86FB77D1AD413A6EEBC906485 /* Build configuration list for PBXNativeTarget "Pods-THEPageControlApp" */;
+			buildConfigurationList = C61B1204B7EE03A9356E9BDD1CC01072 /* Build configuration list for PBXNativeTarget "THEPageControl" */;
 			buildPhases = (
-				E5E5B7B0642E1ECB562670F5C59ADAD0 /* Sources */,
-				A60F138FB04074B3B9F06661B2159388 /* Frameworks */,
-				9F06E0C9DFA35BD39689FE71FDFE2C1D /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				5A231C7EF45FEBFA16027B5DE4C5C3CA /* PBXTargetDependency */,
-			);
-			name = "Pods-THEPageControlApp";
-			productName = "Pods-THEPageControlApp";
-			productReference = 3E84C60626CDA3322AAF2C6AC73D86C9 /* Pods_THEPageControlApp.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		766EFA1C8B993EA30D0DD7B0298AC63C /* THEPageControl */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8156D6FE34152D5BB208803F595A7DD6 /* Build configuration list for PBXNativeTarget "THEPageControl" */;
-			buildPhases = (
-				362B6D46D7F672FD5C5F579FCDEABA58 /* Sources */,
-				DA005A95EE49B7482444B9693F12D3D5 /* Frameworks */,
-				49306AC8B5C6BE3801ACF9FD601867C1 /* Headers */,
+				71CAC668831AC8541CA44A70887ACE67 /* Headers */,
+				745BCAB0D02E4D759B4B74F835458480 /* Sources */,
+				A393DEA602C415AA5C2893FE3E98A6D7 /* Frameworks */,
+				3E8A18A10CCF3DD5B6ECFB3F4A69B51D /* Resources */,
 			);
 			buildRules = (
 			);
@@ -222,103 +219,106 @@
 			);
 			name = THEPageControl;
 			productName = THEPageControl;
-			productReference = CF8AB90DC02E404F3CF6174E476839CD /* THEPageControl.framework */;
+			productReference = 1561902458271B0A06B3F05ABD41EE18 /* THEPageControl.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D7804F5000AA8909482198E24F494299 /* Pods-THEPageControlApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89CEDB884D908213408A752D6598FCF2 /* Build configuration list for PBXNativeTarget "Pods-THEPageControlApp" */;
+			buildPhases = (
+				43B80E810BEF2B7CEE3C9B2BEB5E4CE4 /* Headers */,
+				FD2A33994F8609DABEC24DBA765B1E81 /* Sources */,
+				E805D82252EB4DCBF650BBC007BA2BD0 /* Frameworks */,
+				D0BA12690BBE3DA1EFC584E7A5C03A0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37FBD92C9EA3337A5A1B16444B4F86D9 /* PBXTargetDependency */,
+			);
+			name = "Pods-THEPageControlApp";
+			productName = "Pods-THEPageControlApp";
+			productReference = F49C7A6E50189E1776142D64B68E2669 /* Pods_THEPageControlApp.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0700;
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
 			};
-			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
-			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = C648FC796450E84DC705B5243B1AED8A /* Products */;
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 3AC325681B0826C4A351895D34D1254F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				475A368A31C0BD763A8B6E723E69A4F9 /* Pods-THEPageControlApp */,
-				766EFA1C8B993EA30D0DD7B0298AC63C /* THEPageControl */,
+				D7804F5000AA8909482198E24F494299 /* Pods-THEPageControlApp */,
+				86F8C4B2FA7AF93968293C8714C632BD /* THEPageControl */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXSourcesBuildPhase section */
-		362B6D46D7F672FD5C5F579FCDEABA58 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
+/* Begin PBXResourcesBuildPhase section */
+		3E8A18A10CCF3DD5B6ECFB3F4A69B51D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				140813E5599042F436C2315164BB3A61 /* THEPageControl-dummy.m in Sources */,
-				F4FE2F4D56FC6E9D084A54A52CF36553 /* THEPageControl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E5E5B7B0642E1ECB562670F5C59ADAD0 /* Sources */ = {
+		D0BA12690BBE3DA1EFC584E7A5C03A0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		745BCAB0D02E4D759B4B74F835458480 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3D932B2A45C786C6F5BDAE7DE619BE1 /* Pods-THEPageControlApp-dummy.m in Sources */,
+				8EF8E44129835F53AC67F11239289DB3 /* THEPageControl-dummy.m in Sources */,
+				E184900CE836A32974218BEE226E3AA7 /* THEPageControl.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD2A33994F8609DABEC24DBA765B1E81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECD82B346157C0B949332F07B5362446 /* Pods-THEPageControlApp-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		5A231C7EF45FEBFA16027B5DE4C5C3CA /* PBXTargetDependency */ = {
+		37FBD92C9EA3337A5A1B16444B4F86D9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = THEPageControl;
-			target = 766EFA1C8B993EA30D0DD7B0298AC63C /* THEPageControl */;
-			targetProxy = 1DBF2BC69B3A8BEF4480F084511793DA /* PBXContainerItemProxy */;
+			target = 86F8C4B2FA7AF93968293C8714C632BD /* THEPageControl */;
+			targetProxy = 2E54DAF0992F260718EF4A4E1120E05C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		2082A6DB2C31474BD733609B8CB56090 /* Debug */ = {
+		3E2D12478FBCD4A08C83162232F15A15 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7AF01DF0B6511599E6172790AAD40897 /* Pods-THEPageControlApp.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-THEPageControlApp/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-THEPageControlApp/Pods-THEPageControlApp.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_THEPageControlApp;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		20B076CE33E623DE871DA68D4C266A52 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E3808CAFC6E758D4D1A9924FF5221215 /* THEPageControl.xcconfig */;
+			baseConfigurationReference = 82C923B6FDD91499A0D95F0D81368E6E /* THEPageControl.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -330,27 +330,29 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/THEPageControl/THEPageControl-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/THEPageControl/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/THEPageControl/THEPageControl-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/THEPageControl/THEPageControl.modulemap";
+				PRODUCT_MODULE_NAME = THEPageControl;
 				PRODUCT_NAME = THEPageControl;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		31E52BFB771D394CDA84E4220A49FD4D /* Release */ = {
+		48B073E7A3E120018528A00326BD9674 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 826C08A85F2B478DE6B294DDD90FB112 /* Pods-THEPageControlApp.release.xcconfig */;
+			baseConfigurationReference = A13ACB43F5CE955A1D9A6C085F4F0F55 /* Pods-THEPageControlApp.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -360,7 +362,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-THEPageControlApp/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-THEPageControlApp/Pods-THEPageControlApp-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -370,18 +372,16 @@
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_THEPageControlApp;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		B254DAA6CF0CE39F4A3D11B90A7E059A /* Release */ = {
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -391,10 +391,12 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -402,6 +404,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -410,7 +413,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -429,16 +431,19 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		B6C1FF1A14A1036B4D10DB6B01109ED2 /* Release */ = {
+		782572E447C64B7D67FB98B5502D4BFB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E3808CAFC6E758D4D1A9924FF5221215 /* THEPageControl.xcconfig */;
+			baseConfigurationReference = 48F00F905B4441016DD5FAD3E901C436 /* THEPageControl.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -450,25 +455,24 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/THEPageControl/THEPageControl-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/THEPageControl/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/THEPageControl/THEPageControl-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/THEPageControl/THEPageControl.modulemap";
+				PRODUCT_MODULE_NAME = THEPageControl;
 				PRODUCT_NAME = THEPageControl;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		E4B68EE12B21C47CB798D9B1ECA6D7A7 /* Debug */ = {
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -478,10 +482,12 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -489,6 +495,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -497,7 +504,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -518,47 +524,83 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
+		E497DF9A3FE4917CB0E43905FF6698FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACD52383F70DFD9F9940CB4CB9491552 /* Pods-THEPageControlApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-THEPageControlApp/Pods-THEPageControlApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-THEPageControlApp/Pods-THEPageControlApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E4B68EE12B21C47CB798D9B1ECA6D7A7 /* Debug */,
-				B254DAA6CF0CE39F4A3D11B90A7E059A /* Release */,
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5AF74AE86FB77D1AD413A6EEBC906485 /* Build configuration list for PBXNativeTarget "Pods-THEPageControlApp" */ = {
+		89CEDB884D908213408A752D6598FCF2 /* Build configuration list for PBXNativeTarget "Pods-THEPageControlApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2082A6DB2C31474BD733609B8CB56090 /* Debug */,
-				31E52BFB771D394CDA84E4220A49FD4D /* Release */,
+				48B073E7A3E120018528A00326BD9674 /* Debug */,
+				E497DF9A3FE4917CB0E43905FF6698FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8156D6FE34152D5BB208803F595A7DD6 /* Build configuration list for PBXNativeTarget "THEPageControl" */ = {
+		C61B1204B7EE03A9356E9BDD1CC01072 /* Build configuration list for PBXNativeTarget "THEPageControl" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				20B076CE33E623DE871DA68D4C266A52 /* Debug */,
-				B6C1FF1A14A1036B4D10DB6B01109ED2 /* Release */,
+				782572E447C64B7D67FB98B5502D4BFB /* Debug */,
+				3E2D12478FBCD4A08C83162232F15A15 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 }
